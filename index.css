@@ -1,0 +1,100 @@
+body{
+	--genwidth: 850px ;
+	--navwidth: 175px ;
+	--fg: #ddd ;
+	--altfg: #ccc ;
+	--fgemph: white ;
+	--bg: #111 ;
+	--altbg: #222 ;
+	--emph: #333 ;
+	--bordercolor: #555 ;
+	--limish: #0e0 ;
+	--bg: rgba(0,0,0,0.4) ;
+	--altbg: rgba(0,0,0,0.4) ;
+    font-family: 'Lucida Console' ;
+	background: #222629  ;
+	margin-bottom: 100px ;
+}
+
+
+p {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    font-family: 'Lucida Console';
+    text-indent: 5%;
+    font-size: 24px;
+}
+
+footer {
+    text-align: left;
+    --fg: #ddd ;
+    --bg: #111 ;
+    --altbg: #222 ;
+    --emph: #333 ;
+	--bordercolor: #555 ;
+    --genwidth: 850px ;
+	--navwidth: 175px ;
+    text-align: left;
+}
+
+main {
+	margin: auto ;
+	color: var(--fg) ;
+	background: var(--bg) ;
+	border: double 2px var(--bordercolor) ;
+	padding: 1em ;
+	border-radius: 20px ;
+    margin-left: 100px;
+    margin-right: 100px ;
+}
+
+nav{
+    margin: auto ;
+	color: var(--fg) ;
+	background: var(--bg) ;
+	border: double 2px var(--bordercolor) ;
+	padding: 1em ;
+	border-radius: 20px ;
+  
+}
+
+
+
+header h1 {
+	font-size: xxx-large;
+    text-align: center;
+}
+main h2{
+    text-align: center;
+}
+
+dl{
+    text-align: center;
+}
+
+dt { 
+    font-weight: bold ; 
+    color: lightcyan ; 
+    display: inline;
+    padding: 50px;
+    font-family: 'Lucida console';
+ }
+
+ h1,h2,h3,h4 {
+	font-family: "Lucida Console";
+	text-shadow: 1px 1px var(--emph) ;
+	font-weight: normal ;
+}
+h1 { color: lightskyblue  ; }
+
+h2 { color: lightblue  ; }
+
+h3 { color: #474B4F ; }
+
+h4 { color: #6B6E70 ; }
+
+a { color:  lightcyan  ; text-decoration: none ;}
+
+a:hover { color: lightskyblue;}
